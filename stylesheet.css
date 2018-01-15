@@ -1,0 +1,103 @@
+a,address,body,div,footer,h1,h2,h3,h4,header,html,li,main,p,section,span,strong,ul {
+      margin: 0;
+    padding: 0;
+   border: 0;
+}
+body {
+    color: black;
+    background-color: lightgray;
+ font-family: Tahoma,sans-serif;
+}
+header, footer {
+  background-color: orangered;
+}
+header, main, footer {
+    margin: 0 auto;
+       width: 800px;
+}
+main {
+      background-color: white;
+}
+h1,h2,h3,h4  { 
+    color: navy;
+     font-size: 1.3em;
+     font-weight: normal;
+  text-transform: uppercase;
+    text-align: center;
+}
+h1 {
+  font: bold 2.2em impact,serif;
+       text-shadow: 2px 2px 1px lightblue;
+   letter-spacing: 1px;
+}
+h4 { 
+     display:inline-block;
+}
+address {
+   font-style: normal;
+}
+#profil {
+     margin: 0 0 1.2em;
+}
+#profil p {
+    font-size: 0.9em;
+     color: black;
+  padding-top: 0.6em;
+}
+.mainsection section{
+ margin: 1.2em 0;
+}
+.mainsection h2 {
+     font-size: 1.8em;
+}
+#formation ul  {
+    list-style: none;
+}
+#contact {
+  border: thin solid;
+   border-radius: .3em;
+  margin-top: -2.2em;
+   width: 200px;
+ float: right;
+ margin-right: 5%;
+  background-color: lightgray;
+}
+#contact h2 {
+        background-color: navy;
+       color: white;
+ padding: 0.25em;
+}
+#contact ul{
+     padding: 0.6em;
+       font-size: smaller;
+   list-style: none;
+}
+.dates {
+    color: gray;
+   float: right;
+}
+.competences {
+      width: 35%; 
+}
+.competences li {
+    display: block;
+       background: orangered;
+     color: white;
+ margin-bottom: 0.3em;
+ text-align: right;
+    padding: 0.3em;
+       box-sizing: border-box; 
+
+}
+.competences li:hover {
+     opacity: .8;
+}
+.w100 {
+    width: 100%;
+}
+.w80 {
+    width: 80%;
+}
+.w60 {
+    width: 60%;
+}
